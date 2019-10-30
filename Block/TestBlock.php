@@ -1,12 +1,12 @@
 <?php
-namespace Lof\HelloMagento2\Block;
+namespace Magento1994\HelloMagento2\Block;
  
 class TestBlock extends \Magento\Framework\View\Element\Template
 {
 	protected $helperData;
 	public function __construct(
 		\Magento\Framework\View\Element\Template\Context $context,
-		\Lof\HelloMagento2\Helper\Data $helperData)
+		\Magento1994\HelloMagento2\Helper\Data $helperData)
 	{
 		$this->helperData = $helperData;
 		parent::__construct($context);

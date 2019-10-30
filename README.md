@@ -1,4 +1,4 @@
-# magento2-truong-hello-magento2
+# magento2-hello-magento2
 ###### What is this extension about?
 Hello Magento 2
 

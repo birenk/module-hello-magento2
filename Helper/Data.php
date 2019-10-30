@@ -1,6 +1,6 @@
 <?php
 
-namespace Lof\HelloMagento2\Helper;
+namespace Magento1994\HelloMagento2\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;
@@ -8,7 +8,7 @@ use Magento\Store\Model\ScopeInterface;
 class Data extends AbstractHelper
 {
 
-	const XML_PATH_TRUONGHELLOMAGENTO2 = 'truonghellomagento2/';
+	const XML_PATH_HELLOMAGENTO2 = 'hellomagento2/';
 
 	public function getConfigValue($field, $storeId = null)
 	{
@@ -20,7 +20,7 @@ class Data extends AbstractHelper
 	public function getGeneralConfig($code, $storeId = null)
 	{
 
-		return $this->getConfigValue(self::XML_PATH_TRUONGHELLOMAGENTO2 .'general/'. $code, $storeId);
+		return $this->getConfigValue(self::XML_PATH_HELLOMAGENTO2 .'general/'. $code, $storeId);
 	}
 
 }

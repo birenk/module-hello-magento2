@@ -3,7 +3,7 @@
 <widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
 		 
-	<widget class="Lof\HelloMagento2\Block\Widget\Posts" id="lof_truonghellomagento2_posts">
+	<widget class="Magento1994\HelloMagento2\Block\Widget\Posts" id="magento1994_hellomagento2_posts">
 		<label translate="true">Blog Posts Test</label>
 		<description translate="true">Posts</description>
 		<parameters>
@@ -13,7 +13,7 @@
         </parameters>
         
 	</widget>
-	<widget class="Lof\HelloMagento2\Block\Widget\HelloPost" id="lof_truonghellomagento2_hellopost">
+	<widget class="Magento1994\HelloMagento2\Block\Widget\HelloPost" id="magento1994_hellomagento2_hellopost">
 		<label translate="true">Blog Hello Posts Test</label>
 		<description translate="true">Posts</description>
 		<parameters>
