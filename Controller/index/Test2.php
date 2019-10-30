@@ -1,5 +1,5 @@
 <?php
-namespace Lof\TruongHelloMagento2\Controller\Index;
+namespace Lof\HelloMagento2\Controller\Index;
 class Test2 extends \Magento\Framework\App\Action\Action
 {
 	protected $_pageFactory;

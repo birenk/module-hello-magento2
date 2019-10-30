@@ -4,11 +4,7 @@ Hello Magento 2
 
 ###### Install Extension
 ```
-composer require landofcoder/module-truong-hello-magento2
-php bin/magento module:enable Lof_TruongHelloMagento2
-php bin/magento setup:upgrade
-php bin/magento setup:static-content:deploy -f
-
+composer require birenk/module-hello-magento2
 ```
 
 ###### manage extension

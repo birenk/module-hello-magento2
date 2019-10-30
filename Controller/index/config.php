@@ -1,6 +1,6 @@
 <?php
 
-namespace Lof\TruongHelloMagento2\Controller\Index;
+namespace Lof\HelloMagento2\Controller\Index;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\Action\Action;
@@ -14,7 +14,7 @@ class Config extends \Magento\Framework\App\Action\Action
 
 	public function __construct(
 		\Magento\Framework\App\Action\Context $context,
-		\Lof\TruongHelloMagento2\Helper\Data $helperData
+		\Lof\HelloMagento2\Helper\Data $helperData
 
 	)
 	{
